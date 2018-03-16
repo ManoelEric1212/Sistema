@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="322.0" prefWidth="508.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.CadastrarClienteController">
+   <children>
+      <Label fx:id="lbnome" layoutX="52.0" layoutY="117.0" text="Nome" />
+      <Label fx:id="lbnumcompra" layoutX="52.0" layoutY="173.0" text="Nº de compras" />
+      <Label fx:id="lbdebito" layoutX="51.0" layoutY="222.0" text="Débito" />
+      <TextField fx:id="txnome" layoutX="153.0" layoutY="113.0" prefHeight="25.0" prefWidth="329.0" promptText="Digite seu nome" />
+      <TextField fx:id="txnumcompra" layoutX="153.0" layoutY="169.0" promptText="digite o número de compras" />
+      <TextField fx:id="txdebito" layoutX="153.0" layoutY="218.0" promptText="digite o débito" />
+      <Text fx:id="text" fill="#22b7e4" layoutX="145.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CADASTRO DE CLIENTES" textAlignment="CENTER">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button fx:id="btcancelar" layoutX="153.0" layoutY="266.0" mnemonicParsing="false" text="Cancelar" />
+      <Button fx:id="btcadastrar" layoutX="228.0" layoutY="266.0" mnemonicParsing="false" text="Cadastrar" />
+   </children>
+</AnchorPane>
